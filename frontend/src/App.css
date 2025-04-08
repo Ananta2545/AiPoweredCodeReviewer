@@ -119,3 +119,8 @@ main .right {
   justify-content: center;
   gap: 0.5rem;
 }
+
+.left .code pre,
+.left .code pre code {
+  white-space: pre; /* prevent wrapping */
+}
